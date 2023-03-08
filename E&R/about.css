@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+.main{
+    width: 100%;
+    background:  white ;
+    background-position: center;
+    background-size: cover;
+    
+    background-color: #fff;
+}
+
+.navbar{
+    
+    height: 100px;
+    
+    background: #f2f2f2;
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-left: 56px;
+}
+
+.logo{
+    padding-left: px;
+    padding-top: px;
+    margin-top: px;
+    width: 100px;
+
+
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #62B6B7;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+
+.story{
+    display: flex;
+    margin-top: 65px;
+    margin-left: 50px;
+
+}
+.first{ 
+    justify-content: space-between;
+    width: 510px;
+    height: auto;
+    margin-left: 140px;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color:black;
+    position: relative;
+}
+
+
+.first h1{
+    color: #439A97;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.first p{
+    font-size: 27px;
+    font-weight: 450;
+    color: #000;
+
+
+}
+
+.sec{
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.vision{
+
+    display: flex;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+
+.vfirst{ 
+    margin-top: 50px;
+    
+   
+}
+.vsec h1{
+    color: #439A97;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.vsec{
+    justify-content: space-between;
+    width: 510px;
+    height: auto;
+    margin-left: 140px;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color:black;
+    position: relative;
+}
+.vsec p{
+    font-size: 27px;
+    font-weight: 450;
+    color: #000;
+}
+
+
+.mission{
+    display: flex;
+    margin-top: 85px;
+    margin-left: 50px;
+
+}
+.mfirst{ 
+    justify-content: space-between;
+    width: 510px;
+    height: auto;
+    margin-left: 140px;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color:black;
+    position: relative;
+}
+
+
+.mfirst h1{
+    color: #439A97;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.mfirst li{
+    font-size: 27px;
+    font-weight: 450;
+    color: #000;
+
+
+}
+.mfirst p{
+    font-size: 27px;
+    font-weight: 450;
+    color: #000;
+}
+
+.msec{
+    margin-top: 50px;
+}

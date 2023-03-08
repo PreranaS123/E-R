@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+.main{
+    width: 100%;
+    background:  white ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.navbar{
+    
+    height: 100px;
+    
+    background: #f2f2f2;
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-left: 56px;
+}
+
+.logo{
+    padding-left: px;
+    padding-top: px;
+    margin-top: px;
+    width: 100px;
+
+
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #62B6B7;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+
+.clean{
+    display: flex;
+}
+
+.slogan{
+    width: 510px;
+    height: auto;
+    margin-left: 140px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color:black;
+    position: relative;
+}
+
+.slogan h1{
+    font-family: 'Georgia, serif;';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 15%;
+    letter-spacing: -1px;
+}
+
+.slogan .contact{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.slogan .contact a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.contact:hover{
+    background-color: #fff;
+}
+.img1{
+    width: 150px;
+    height: 300px;
+    display: flex;
+    margin-top: 121px;
+
+    
+
+}
+
+
+.wrapper h1{
+    font-size: 3em;
+    margin: 25px 0;
+    text-align: center;
+    font-weight: 600;
+    color: #439A97;
+}
+.content-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1065px;
+    margin-top: 30px;
+    margin-left: 217px;
+}
+.card{
+     min-height: 220px;
+     width: 320px;
+     padding: 30px;
+     border-radius: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     background: #fff;
+     margin: 10px 4px;
+     box-shadow: 0px 15px 25px rgba(0,0,0,0.2);
+     transition: 0.3s;
+}
+.card i{
+    margin: 20px;
+    color: #ff5724;
+}
+.card h2{
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: #62B6B7;
+}
+.card p{
+    color: #6c757d;
+    text-align: center;
+}
+
+
+.card:hover i,
+.card:hover p{
+    color: #fff;
+}
+.card:hover h2{
+    font-weight: 600;
+    color: #f2f2f2;
+}
+.card:nth-child(1):hover{
+    background:linear-gradient(45deg,
+    rgba(19, 165, 176, 0.8) 0%,
+    rgba(20, 159, 190, 0.8) 100%),
+ url('img/building-ge9cf03097_1280.jpg');
+    background-size: cover;                            
+}
+.card:nth-child(1):hover {
+    background: linear-gradient(45deg,
+    rgba(19, 165, 176, 0.8) 0%,
+    rgba(20, 159, 190, 0.8) 100%),
+
+        url('img/cleaning.png');
+    background-size: cover;
+}
+.card:nth-child(2):hover {
+    background: linear-gradient(45deg,
+    rgba(19, 165, 176, 0.8) 0%,
+    rgba(20, 159, 190, 0.8) 100%),
+url('img/garding.png');
+    background-size: cover;
+}
+.card:nth-child(3):hover {
+    background: linear-gradient(45deg,
+    rgba(19, 165, 176, 0.8) 0%,
+    rgba(20, 159, 190, 0.8) 100%),
+url('img/home_tutore.png');
+    background-size: cover;
+}
+.card:nth-child(4):hover {
+    background: linear-gradient(45deg,
+    rgba(19, 165, 176, 0.8) 0%,
+    rgba(20, 159, 190, 0.8) 100%),
+ 
+        url('img/yoga.png');
+    background-size: cover;
+}
+.card:nth-child(5):hover {
+    background: linear-gradient(45deg,
+    rgba(19, 165, 176, 0.8) 0%,
+    rgba(20, 159, 190, 0.8) 100%),
+url('img/building-ge9cf03097_1280.jpg');
+    background-size: cover;
+}
+.card:nth-child(6):hover {
+    background: linear-gradient(45deg,
+            rgba(19, 165, 176, 0.8) 0%,
+            rgba(20, 159, 190, 0.8) 100%),
+        url('img/care.png');
+    background-size: cover;
+}
+
+.loc h1{
+    color: #439A97;
+text-align: center;
+margin-top: 100px;
+}
+.areas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    margin-left: 217px;
+    margin-right: 256px;
+    
+
+
+
+}
+
+
+.story{
+    display: flex;
+    margin-top: 65px;
+    margin-left: 50px;
+
+}
+.first{ 
+    justify-content: space-between;
+    width: 510px;
+    height: auto;
+    margin-left: 140px;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color:black;
+    position: relative;
+}
+
+
+.first h1{
+    color: #439A97;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.first p{
+    font-size: 27px;
+    font-weight: 450;
+    color: #000;
+
+
+}
+
+.sec{
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.vision{
+
+    display: flex;
+    margin-top: 65px;
+    margin-left: 50px;
+}
+
+.vfirst{ 
+    margin-top: 50px;
+    
+   
+}
+.vsec h1{
+    color: #439A97;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.vsec{
+    justify-content: space-between;
+    width: 510px;
+    height: auto;
+    margin-left: 140px;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color:black;
+    position: relative;
+}
+.vsec p{
+    font-size: 27px;
+    font-weight: 450;
+    color: #000;
+}
+
+
+.mission{
+    display: flex;
+    margin-top: 85px;
+    margin-left: 50px;
+
+}
+.mfirst{ 
+    justify-content: space-between;
+    width: 510px;
+    height: auto;
+    margin-left: 140px;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color:black;
+    position: relative;
+}
+
+
+.mfirst h1{
+    color: #439A97;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.mfirst p{
+    font-size: 27px;
+    font-weight: 450;
+    color: #000;
+}
+
+.msec{
+    margin-top: 50px;
+}
